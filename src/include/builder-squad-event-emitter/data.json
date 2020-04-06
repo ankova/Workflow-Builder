@@ -1,0 +1,1100 @@
+{
+  "connectors": [
+    {
+      "iconURL": "//app.tray.io/icons/streamline/split.svg",
+      "name": "Boolean Condition"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/hierarchy-1.svg",
+      "name": "Branch"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/arrow-return.svg",
+      "name": "Break Loop"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-table.svg",
+      "name": "CSV Editor"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-binary-search.svg",
+      "name": "CSV Reader"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/flash-1.svg",
+      "name": "Call Workflow"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/cross-over.svg",
+      "name": "Data Mapper"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/server-edit-1.svg",
+      "name": "Data Storage"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/hourglass-1.svg",
+      "name": "Delay"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/globe-2.svg",
+      "name": "Http Client"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/synchronize-1.svg",
+      "name": "Loop Collection"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/script.svg",
+      "name": "Script"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/email.svg",
+      "name": "Send Email"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/remove-circle-1.svg",
+      "name": "Terminate"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/upload-box-4.svg",
+      "name": "Trigger Event Reply"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-code-1.svg",
+      "name": "XML Decoder"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/lock-close-1.svg",
+      "name": "Crypto Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/calendar-1.svg",
+      "name": "Date &amp; Time Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-lock-2.svg",
+      "name": "Encryption helper"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/files-1.svg",
+      "name": "File Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-format-html.svg",
+      "name": "HTML Dom Parser"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/view-headline.svg",
+      "name": "List Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/exposure-level-add-subtract.svg",
+      "name": "Logic Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/calculator-1.svg",
+      "name": "Math Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/calculator-3.svg",
+      "name": "Number Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/box-3.svg",
+      "name": "Object Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/phone-3.svg",
+      "name": "Phone Number Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/dice-2.svg",
+      "name": "Random Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/text.svg",
+      "name": "Text Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-table.svg",
+      "name": "XLSX Helpers"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-zipped.svg",
+      "name": "Zip"
+    },
+    {
+      "iconURL": "//app.tray.io/icons/streamline/file-format-xml.svg",
+      "name": "XML Helpers"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/ftp-client.png",
+      "name": "FTP Client"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/json-reader.png",
+      "name": "JSON Reader"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/mustache.png",
+      "name": "Mustache Template"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ldap-client.png",
+      "name": "LDAP Client"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/lodash.png",
+      "name": "Lodash"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/123formbuilder.png",
+      "name": "Form builder"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/adp-aurea.png",
+      "name": "ADP Aurea"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-cloudwatch.png",
+      "name": "AWS CloudWatch"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/cloudfront.png",
+      "name": "AWS Cloudfront"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-codedeploy.png",
+      "name": "AWS CodeDeploy"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-codepipeline.png",
+      "name": "AWS CodePipeline"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-cognito.png",
+      "name": "AWS Cognito"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-glue.png",
+      "name": "AWS Glue"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-kinesis.png",
+      "name": "AWS Kinesis"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-lambda.png",
+      "name": "AWS Lambda"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/aws-s3.png",
+      "name": "AWS S3"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aws-sns.png",
+      "name": "AWS SNS"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/aws-sqs.png",
+      "name": "AWS SQS"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/absorb.png",
+      "name": "Absorb"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/act-on.png",
+      "name": "Act-On"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/activecampaign.png",
+      "name": "Active Campaign"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/acuity-scheduling.png",
+      "name": "Acuity Scheduling"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/adroll.png",
+      "name": "AdRoll"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/adaptive-insights.png",
+      "name": "Adaptive Insights"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/adobe-experience-manager.png",
+      "name": "Adobe Experience Manager"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aeries.png",
+      "name": "Aeries"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/agile-crm.png",
+      "name": "Agile CRM"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ahrefs.png",
+      "name": "Ahrefs"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/aircall.png",
+      "name": "Aircall"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/airtable.png",
+      "name": "Airtable"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/alexa-top-sites.png",
+      "name": "Alexa top sites"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/algolia.png",
+      "name": "Algolia"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/amazon-athena.png",
+      "name": "Amazon Athena"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/amazon-marketplace.png",
+      "name": "Amazon Marketplace"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/amplitude.png",
+      "name": "Amplitude"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/anaplan.png",
+      "name": "Anaplan"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/appdirect-isv.png",
+      "name": "AppDirect ISV"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/asana.png",
+      "name": "Asana"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/atlassian.png",
+      "name": "Atlassian"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/autopilot.png",
+      "name": "Autopilot"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/azure-active-directory.png",
+      "name": "Azure Active Directory"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/bmc-remedy.png",
+      "name": "BMC Remedy"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/bamboohr.png",
+      "name": "BambooHR"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/basecamp.png",
+      "name": "Basecamp"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/bigcommerce.png",
+      "name": "Big Commerce"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/bing-ads.png",
+      "name": "Bing Ads"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/boostr.png",
+      "name": "Boostr"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/box.png",
+      "name": "Box"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/brandfolder.png",
+      "name": "Brand Folder"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/briteverify.png",
+      "name": "Brite Verify"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/bugsnag.png",
+      "name": "Bugsnag"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/bynder.png",
+      "name": "Bynder"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/calendly.png",
+      "name": "Calendly"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/campaign-monitor.png",
+      "name": "Campaign Monitor"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/chargify.png",
+      "name": "Chargify"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/chartmogul.png",
+      "name": "ChartMogul"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/clearbit.png",
+      "name": "Clearbit"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/close.png",
+      "name": "Close"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/clubhouse.png",
+      "name": "Clubhouse"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/confluence.png",
+      "name": "Confluence"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/convertkit.png",
+      "name": "ConvertKit"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/copper.png",
+      "name": "Copper"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/crunchbase.png",
+      "name": "Crunchbase"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/cue.png",
+      "name": "Cue"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/datanyze.png",
+      "name": "Datanyze"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/demandbase.png",
+      "name": "Demandbase"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/docebo.png",
+      "name": "Docebo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/docusign.png",
+      "name": "DocuSign"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/domo.png",
+      "name": "Domo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/drift.png",
+      "name": "Drift"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/dropbox.png",
+      "name": "Dropbox"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/dynamo.png",
+      "name": "Dynamo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/easypromo.png",
+      "name": "Easypromo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ellucian-ethos.png",
+      "name": "Ellucian Ethos"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/eloqua.png",
+      "name": "Eloqua"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/eventbrite.png",
+      "name": "Eventbrite"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/expensify.png",
+      "name": "Expensify"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/exponenthr.png",
+      "name": "ExponentHR"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/facebook.png",
+      "name": "Facebook"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/filemaker-pro.png",
+      "name": "FileMaker Pro"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/firebase.png",
+      "name": "Firebase"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/fixer.png",
+      "name": "Fixer"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/float.png",
+      "name": "Float"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/formstack.png",
+      "name": "Formstack"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/freshsales.png",
+      "name": "FreshSales"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/full-contact.png",
+      "name": "Full Contact"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/fullstory.png",
+      "name": "Fullstory"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/g-suite.png",
+      "name": "G Suite"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/getresponse.png",
+      "name": "Get Response"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/github.png",
+      "name": "Github"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/google-gmail.png",
+      "name": "Gmail"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/gotomeeting.png",
+      "name": "Gotomeeting"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/gotowebinar.png",
+      "name": "Gotowebinar"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/google-ad-manager.png",
+      "name": "Google Ad Manager"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/google-adwords.png",
+      "name": "Google Adwords"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/google-analytics.png",
+      "name": "Google Analytics"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/google-bigquery.png",
+      "name": "Google BigQuery"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/google-calendar.png",
+      "name": "Google Calendar"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/google-contacts.png",
+      "name": "Google Contacts"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/google-docs.png",
+      "name": "Google Docs"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/google-drive.png",
+      "name": "Google Drive"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/google-maps.png",
+      "name": "Google Maps"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/google-search-console.png",
+      "name": "Google Search Console"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/google-sheets.png",
+      "name": "Google Sheets"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/greenhouse.png",
+      "name": "Greenhouse"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/hatchbuck.png",
+      "name": "Hatchbuck"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/hellosign.png",
+      "name": "HelloSign"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/help-scout.png",
+      "name": "Help Scout"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/hive.png",
+      "name": "Hive"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/hootsuite.png",
+      "name": "Hootsuite"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/hubspot.png",
+      "name": "HubSpot"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/huddle.png",
+      "name": "Huddle"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/hunter.png",
+      "name": "Hunter"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ibm-db2.png",
+      "name": "IBM DB2"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ibm-mq.png",
+      "name": "IBM MQ"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ibm-watson-nlu.png",
+      "name": "IBM Watson NLU"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ibm-watson-stt.png",
+      "name": "IBM Watson STT"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/intacct.png",
+      "name": "Intacct"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/intercom.png",
+      "name": "Intercom"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/iterable.png",
+      "name": "Iterable"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/jenkins-build-token.png",
+      "name": "Jenkins Build Token"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/jira.png",
+      "name": "Jira"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/jotform.png",
+      "name": "JotForm"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/jumpcloud.png",
+      "name": "Jumpcloud"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/kafka.png",
+      "name": "Kafka"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/kapost.png",
+      "name": "Kapost"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/keen.png",
+      "name": "Keen.IO"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/kenshoo.png",
+      "name": "Kenshoo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/kickbox.png",
+      "name": "Kickbox"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/kochava.png",
+      "name": "Kochava"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/linkedin.png",
+      "name": "Linkedin"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/listrak.png",
+      "name": "Listrak"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/lithium.png",
+      "name": "Lithium"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/liveperson.png",
+      "name": "LivePerson"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/logic-monitor.png",
+      "name": "Logic Monitor"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/looker.png",
+      "name": "Looker"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/magento-1.png",
+      "name": "Magento 1"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/magento.png",
+      "name": "Magento 2"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/mailchimp.png",
+      "name": "Mailchimp"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/marketo.png",
+      "name": "Marketo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/mattermark.png",
+      "name": "Mattermark"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/microsoft-sql-database.png",
+      "name": "Microsoft SQL database"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/microsoft.png",
+      "name": "Microsoft Teams"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/mixpanel.png",
+      "name": "Mixpanel"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/mode.png",
+      "name": "Mode"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/monday.png",
+      "name": "Monday"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/mongo-db.png",
+      "name": "MongoDB"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/monkey-learn.png",
+      "name": "Monkey Learn"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/mysql.png",
+      "name": "MySQL"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/nasa.png",
+      "name": "NASA"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/namely.png",
+      "name": "Namely"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/netsuite.png",
+      "name": "NetSuite"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/nexmo.png",
+      "name": "Nexmo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/okta.png",
+      "name": "Okta"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/onelogin.png",
+      "name": "OneLogin"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ooma.png",
+      "name": "Ooma"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/opsgenie.png",
+      "name": "OpsGenie"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/optimizely.png",
+      "name": "Optimizely"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/oracle-bronto.png",
+      "name": "Oracle Bronto"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/outreach-new.png",
+      "name": "Outreach"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/pagerduty.png",
+      "name": "PagerDuty"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/pandadoc.png",
+      "name": "PandaDoc"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/pardot.png",
+      "name": "Pardot"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/paylocity.png",
+      "name": "Paylocity"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/paymo.png",
+      "name": "Paymo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/persistiq.png",
+      "name": "PersistIQ"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/pestroutes.png",
+      "name": "PestRoutes"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/pipedrive.png",
+      "name": "Pipedrive"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/pipeliner.png",
+      "name": "Pipeliner"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/pipeliner-crm-cloud.png",
+      "name": "Pipeliner CRM Cloud"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/portabilling.png",
+      "name": "PortaBilling (PortaOne)"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/postgres.png",
+      "name": "PostgreSQL"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/power-bi.png",
+      "name": "Power BI"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/quickbooks.png",
+      "name": "QuickBooks"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/icons/quickbooks.png",
+      "name": "QuickBooks Payments"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/recurly.png",
+      "name": "Recurly"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/redshift.png",
+      "name": "Redshift"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/regonline.png",
+      "name": "RegOnline"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/rho.png",
+      "name": "Rho"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/sap.png",
+      "name": "SAP"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/sap-s4hana-cloud.png",
+      "name": "SAP S/4HANA Cloud"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/semrush.png",
+      "name": "SEMrush"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/stat.png",
+      "name": "STAT"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/sailthru.png",
+      "name": "Sailthru"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/salesloft.png",
+      "name": "SalesLoft"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/salesforce.png",
+      "name": "Salesforce"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/salesforce-marketing-cloud.png",
+      "name": "Salesforce Marketing Cloud"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/scoop.png",
+      "name": "Scoop"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/segment.png",
+      "name": "Segment"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/sendgrid.png",
+      "name": "SendGrid"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/sendinblue.png",
+      "name": "SendinBlue"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/sendoso.png",
+      "name": "Sendoso"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/servicenow.png",
+      "name": "ServiceNow"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/sharepoint.png",
+      "name": "SharePoint"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/shopify.png",
+      "name": "Shopify"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/showpad.png",
+      "name": "Showpad"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/slack.png",
+      "name": "Slack"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/smartsheet.png",
+      "name": "Smartsheet"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/snowflake.png",
+      "name": "Snowflake"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/strava.png",
+      "name": "Strava"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/streak.png",
+      "name": "Streak"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/stripe.png",
+      "name": "Stripe"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/sugarcrm.png",
+      "name": "SugarCRM"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/surefire.png",
+      "name": "Surefire"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/surveysparrow.png",
+      "name": "SurveySparrow "
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/swoogo.png",
+      "name": "Swoogo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/synthesio.png",
+      "name": "Synthesio"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/teamwork.png",
+      "name": "Teamwork"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/toggl.png",
+      "name": "Toggl"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/trello.png",
+      "name": "Trello"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/twilio.png",
+      "name": "Twilio"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/typeform.png",
+      "name": "Typeform"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/uberflip.png",
+      "name": "Uberflip"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/udemy.png",
+      "name": "Udemy"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/udemy-for-business.png",
+      "name": "Udemy for Business"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/uservoice.png",
+      "name": "UserVoice"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/vwo.png",
+      "name": "VWO"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/velocify.png",
+      "name": "Velocify"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/virtuous-crm.png",
+      "name": "Virtuous CRM"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/vonage.png",
+      "name": "Vonage"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/wunderground.png",
+      "name": "Weather Underground"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/wolfram-alpha.png",
+      "name": "Wolfram Alpha Short Answers"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/workstack.png",
+      "name": "Workstack"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/wrike.png",
+      "name": "Wrike"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/wufoo.png",
+      "name": "Wufoo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/wunderlist.png",
+      "name": "Wunderlist"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/xero.png",
+      "name": "Xero"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/xverify.png",
+      "name": "Xverify"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/yodiz.png",
+      "name": "Yodiz"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/yotpo.png",
+      "name": "Yotpo"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/zaius.png",
+      "name": "Zaius"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/zendesk.png",
+      "name": "Zendesk"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/zendesk-sell.png",
+      "name": "Zendesk Sell"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/zendesk-sunshine.png",
+      "name": "Zendesk Sunshine"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/zoho.png",
+      "name": "Zoho"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/zoho-creator.png",
+      "name": "Zoho Creator"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/zoho.png",
+      "name": "Zoho Desk"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/zoom.png",
+      "name": "Zoom"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/static/service/icons/zuora.png",
+      "name": "Zuora"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/icontact.png",
+      "name": "iContact"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/ioffice.png",
+      "name": "iOffice"
+    },
+    {
+      "iconURL": "//s3.amazonaws.com/images.tray.io/artisan/icons/klaviyo.png",
+      "name": "klaviyo"
+    }
+  ]
+}
