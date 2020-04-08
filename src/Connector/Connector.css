@@ -1,3 +1,7 @@
 .Connector {
-    position: relative;
+    
+}
+
+.absolute-position {
+    position: absolute;
 }

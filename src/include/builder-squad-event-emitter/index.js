@@ -1,5 +1,9 @@
 import React from "react";
 import { connectors } from "./data.json";
+import EventEmitter from "eventemitter3";
+
+/* Set a new event emitter instance */
+let eventBus = new EventEmitter();
 
 const getTimeout = () => {
   return Math.floor(Math.random() * 2500 + 500);
@@ -38,7 +42,9 @@ function Emitter(props) {
   const [timeoutHandler, updateTimeoutHandler] = React.useState();
 
   const delayedEmitEvent = () => {
-    updateData(getEventPayload(true));
+    const newData = getEventPayload(true);
+    eventBus.emit("event", newData);
+    updateData(newData);
     updateTimeoutHandler(setTimeout(delayedEmitEvent, getTimeout()));
   };
 
@@ -50,11 +56,14 @@ function Emitter(props) {
     };
   }, [connectors]);
 
+  /* Pass the event emitter as a property to each child component */
+
   return (
     React.Children.map(props.children, child => {
       return React.cloneElement(child, {
         ...child.props,
-        "data-tray": trayData
+        eventBus
+        // "data-tray": trayData
       });
     }) || null
   );

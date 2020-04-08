@@ -4,15 +4,21 @@
   "private": true,
   "dependencies": {
     "@trayio/builder-squad-event-emitter": "^1.1.0",
+    "classnames": "^2.2.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eventemitter3": "^4.0.0",
+    "moment": "^2.24.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "0.9.x"
+    "react-scripts": "0.9.x",
+    "react-test-renderer": "^16.13.1"
   },
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=jsdom"
   }
 }

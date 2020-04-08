@@ -1,7 +1,13 @@
 .App {
-  width: 1000px;
   height: 1000px;
   text-align: center;
   background-color: burlywood;
-  margin: auto;
+}
+
+.Selection {
+  background-color: burlywood;
+  height: auto;
+  min-height: 100px;
+  margin-top: 1rem;
+  padding: 1rem;
 }
