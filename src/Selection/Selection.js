@@ -1,29 +1,32 @@
-// import React, { useState, Context, useContext } from 'react';
-// // import {ReceivedEventsContext} from '../App';
+import React, { useState } from 'react';
+import Connector from '../Connector/Connector';
 
-// // import './Selector.css';
-// // const receivedEvents = useContext(ReceivedEventsContext);
-// const Selecton = (props) => {
-// // function allowDrop(ev) {
-// //     ev.preventDefault();
-// //   }
-  
-// //   function drop(ev) {
-// //     ev.preventDefault();
-// //     var datum = JSON.parse(ev.dataTransfer.getData("connector"));
-// //     setSelectedEvents([...selectedEvents, {connector: datum.connector}]);
-// //     setReceiedEvents(receivedEvents.filter(ev => ev.connector.name !== datum.connector.name))
-// //   }
-//     return (
-//         // <div className="Selection"
-//         //     onDrop={(event) => drop(event)} 
-//         //     onDragOver={(event) => allowDrop(event)}>
+// import './Selector.css';
+const Selecton = (props) => {
 
-//         //     {selectedEvents.map((ev,i) =>
-//         //     <Connector key={i} {...ev} />
-//         //     )}
-//         // </div>
-//     )
-// };
+    const {eventBus} = props;
+    const [ selectedEvents, setSelectedEvents ] = useState([]);
 
-// export default Selecton;
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+    
+    function drop(ev) {
+        ev.preventDefault();
+        var eventData = JSON.parse(ev.dataTransfer.getData("connector"));
+        setSelectedEvents([...selectedEvents, {connector: eventData.connector}]);
+        eventBus.emit("selected", eventData);
+    }
+    return (
+        <div className="Selection"
+            onDrop={(event) => drop(event)} 
+            onDragOver={(event) => allowDrop(event)}>
+
+            {selectedEvents.map((ev,i) =>
+            <Connector key={i} {...ev} />
+            )}
+        </div>
+    )
+};
+
+export default Selecton;

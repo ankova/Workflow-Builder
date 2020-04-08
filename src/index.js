@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import EventEmitter from './include/builder-squad-event-emitter';
 
-import App from './App';
+import App from './App/App';
 import Clock from './Clock/Clock';
 import User from './User/User';
 

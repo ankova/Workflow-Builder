@@ -21,7 +21,9 @@ const Clock = () => {
 
     return (
         <div className="Clock">
-            {currentTime.format("HH:mm:ss.S")}
+            <h3>
+                {currentTime.format("HH:mm:ss.S")}
+            </h3>
         </div>
     )
 }

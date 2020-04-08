@@ -4,7 +4,6 @@ import classNames from "classnames";
 import './Connector.css';
 
 const Connector = ({coords, connector}) => {
-
     /* Set drag event handler */
     function drag(event, datum) {
         event.dataTransfer.setData("connector", JSON.stringify(datum));
